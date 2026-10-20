@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ravagli Lisa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" href="img/logo.webp" type="image/webp" />
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0">
+
+        <!-- menù -->
+        <div class="row d-flex align-items-center px-4 py-3 m-0 navbar-row">
+            <div class="col-1">
+                <div class="logo">
+                    <a href="#" class="logo-link" title="Torna in alto">
+                        <p class="font-size-logo">LR</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-8 col-md-3"></div>
+
+            <div class="col-3 col-md-8 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="#About" class="font-size-menu">ABOUT</a></li>
+                        <li class="dropdown">
+                            <span class="font-size-menu">PROGETTI</span>
+                            <div class="dropdown-menu">
+                                <a href="#Comunicazione" class="dropdown-item">COMUNICAZIONE</a>
+                                <a href="#Prodotto" class="dropdown-item">PRODOTTO</a>
+                            </div>
+                        </li>
+                        <li><a href="#Contatti" class="font-size-menu">CONTATTI</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-1 d-md-none d-flex offset-2 justify-content-end mobile-menu-trigger">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menù-hamburger"
+                    style="width: 45px; height: 45px; cursor: pointer;">
+            </div>
+
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="#About" class="font-size-menù">About</a>
+
+                <!-- Dropdown Progetti -->
+                <div class="dropdown">
+                    <span class="font-size-menù">Progetti</span>
+                    <div class="dropdown-menu">
+                        <a href="#Comunicazione" class="dropdown-item">Comunicazione</a>
+                        <a href="#Prodotto" class="dropdown-item">Prodotto</a>
+                    </div>
+                </div>
+
+                <a href="#Contatti" class="font-size-menù">Contatti</a>
+            </div>
+        </div>
+
+        <!-- hero -->
+        <div class="hero">
+            <h1>DESIGN<br>E MUSICA</h1>
+            <div class="row align-items-start justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="foto-hero"><img src="img/canto.webp" class="img-fluid" alt="foto_canto"></div>
+                </div>
+                <div class="col-12 col-md-4 mt-4 mt-md-0 padding-left">
+                    <p class="font-size-paragrafi">Studentessa di design al terzo anno, tra product design,
+                        comunicazione e canto. Dopo il liceo scientifico ho scelto il design, affascinata dal suo intreccio con marketing, fotografia e web design.</p>
+                    <div class="mt-4 pt-2">
+                        <a href="#Comunicazione" class="btn-pill btn-pill-pieno">Guarda i progetti →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- about -->
+        <div id="About" class="row d-flex align-items-start justify-content-start about-presentazione padding-bottom">
+            <div class="col-12 col-md-5 about-testi padding-left-pieno">
+                <p class="etichetta margin-top">Designer //</p>
+                <h3 class="font-size-titoletti-2">About</h3>
+                <p class="font-size-paragrafi">
+                    Studentessa di design al terzo anno. Mi immergo ogni giorno nel product design, un campo che vedo
+                    come avventura creativa.<br><br>
+                    La mia passione nasce dal desiderio di dare vita a oggetti che raccontano storie e risolvono
+                    esigenze reali.<br><br>
+                    Il mio percorso nasce dalla musica: il canto è stato il mio primo palcoscenico, oggi il design ne è
+                    il complemento.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 foto-primo-piano-1 margin-top">
+                <img src="img/foto_primopiano.webp" class="img-fluid" alt="foto_primo_piano_ragazza">
+            </div>
+        </div>
+
+        <div class="row about-extra padding-bottom">
+            <div class="col-12 col-md-5 padding-left-pieno margin-bottom">
+                <p class="font-size-titoli-progetti mb-3">Formazione</p>
+                <ul class="elenco">
+                    <li>Design, Università della Repubblica di San Marino</li>
+                    <li>Maturità scientifica, I.S.I.S.S. Tonino Guerra, Novafeltria</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1">
+                <p class="font-size-titoli-progetti mb-3">Programmi</p>
+                <div class="badges">
+                    <span class="badge-skill">Illustrator</span><span class="badge-skill">Photoshop</span><span
+                        class="badge-skill">InDesign</span><span class="badge-skill">After Effects</span><span
+                        class="badge-skill">Rhinoceros</span><span class="badge-skill">Fusion</span><span
+                        class="badge-skill">DaVinci Resolve</span><span class="badge-skill">HTML, CSS</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- frase -->
+        <div class="row align-items-center justify-content-center frase">
+            <div class="col-10 col-md-8">
+                <p class="font-size-titoletti mb-4">"Il design nasce dal territorio e dalla cultura che lo abita."</p>
+                <p class="font-size-paragrafi">Enzo Mari</p>
+            </div>
+        </div>
+
+        <!-- progetti -->
+        <div id="Progetti"
+            class="row d-flex align-items-start justify-content-start about-presentazione padding-bottom">
+            <div class="col-12 col-md-12 about-testi padding-left-pieno">
+                <h3 class="font-size-titoletti-2 margin-top">Progetti</h3>
+                <p class="font-size-paragrafi">
+                    Dalla teoria alla forma: una selezione di progetti che spaziano dal product design alla
+                    comunicazione visiva.<br><br>
+                    Ogni lavoro rappresenta una sfida risolta attraverso la ricerca, la sperimentazione materica e il
+                    desiderio di creare oggetti che non siano solo funzionali, ma capaci di dialogare con chi li usa.
+                </p>
+            </div>
+        </div>
+
+        <!-- comunicazione -->
+        <div id="Comunicazione">
+            <div class="row d-flex align-items-center justify-content-start comunicazione">
+                <div class="col-12 padding-left-pieno">
+                    <h3 class="font-size-titoletti-2 mb-0">Comunicazione</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-center foto-comunicazione">
+            <div class="col-12 col-md-5 scheda">
+                <a href="luce.html" class="img-link" title="Luce" aria-label="Luce">
+                    <div class="img-box">
+                        <img src="img/luce.webp" class="img-fluid" alt="Luce">
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-5 scheda">
+                <a href="utopia.html" class="img-link" title="Utopia" aria-label="Utopia">
+                    <div class="img-box">
+                        <img src="img/mondo_perfetto_sfocato.webp" class="img-fluid" alt="Utopia">
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-5 scheda">
+                <a href="foresta_abete_rosso.html" class="img-link" title="Foresta dell'abete rosso"
+                    aria-label="Foresta dell'abete rosso">
+                    <div class="img-box">
+                        <img src="img/foresta_abete_rosso.webp" class="img-fluid" alt="Foresta dell'abete rosso">
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-5 scheda">
+                <a href="non_dovevate_crescermi.html" class="img-link" title="Non dovevate crescermi"
+                    aria-label="Non dovevate crescermi">
+                    <div class="img-box">
+                        <img src="img/ndc_3.webp" class="img-fluid" alt="Non dovevate crescermi">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- prodotto -->
+        <div id="Prodotto">
+            <div class="row d-flex align-items-center justify-content-start prodotto">
+                <div class="col-12 padding-left-pieno">
+                    <h3 class="font-size-titoletti-2 mb-0">Prodotto</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prima riga: Wonka e Pettorina -->
+        <div class="row align-items-start justify-content-center foto-prodotto">
+            <div class="col-12 col-md-5 scheda">
+                <a href="wonka.html" class="img-link" title="Wonka" aria-label="Wonka">
+                    <div class="img-box">
+                        <img src="img/wonka_1.webp" class="img-fluid" alt="Wonka">
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-5 scheda">
+                <a href="pettorina_motocross.html" class="img-link" title="Pettorina da motocross"
+                    aria-label="Pettorina da motocross">
+                    <div class="img-box">
+                        <img src="img/pettorina.webp" class="img-fluid" alt="Pettorina da motocross">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Seconda riga: Cinchouse e Cover microfono -->
+        <div class="row align-items-start justify-content-center foto-prodotto">
+            <div class="col-12 col-md-5 scheda">
+                <a href="cinchouse.html" class="img-link" title="Cinchouse" aria-label="Cinchouse">
+                    <div class="img-box">
+                        <img src="img/cinchouse_3.webp" class="img-fluid" alt="Cinchouse">
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-5 scheda">
+                <a href="cover_microfono.html" class="img-link" title="Cover per microfono"
+                    aria-label="Cover per microfono">
+                    <div class="img-box">
+                        <img src="img/cover_antracite.webp" class="img-fluid" alt="Cover per microfono">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Terza riga: Annaffiamici -->
+        <div class="row align-items-start justify-content-center foto-prodotto">
+            <div class="col-12 col-md-5 scheda">
+                <a href="annaffiamici.html" class="img-link" title="Annaffiamici" aria-label="Annaffiamici">
+                    <div class="img-box">
+                        <img src="img/annaffiamici_2.webp" class="img-fluid" alt="Annaffiamici">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- contatti -->
+        <div id="Contatti"
+            class="row d-flex align-items-center justify-content-start contatti sezione-contatti padding-bottom">
+
+            <div class="col-12 col-md-6 about-testi padding-left-pieno">
+                <h3 class="font-size-titoletti-2 margin-top">Contatti</h3>
+                <p class="font-size-paragrafi margin-bottom">
+                    Per progetti, collaborazioni o anche solo per scambiare idee.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-3 offset-md-3 contatti-link font-size-paragrafi">
+                <p>Email: <a href="mailto:lisaravagli6@gmail.com">lisaravagli6@gmail.com</a></p>
+                <p>Telefono: <a href="tel:3396958285">3396958285</a></p>
+            </div>
+
+        </div>
+
+        <a href="#" id="scrollUpButton" title="Torna su">&#9650;</a>
+
+    </div>
+
+    <script>
+        // MENU MOBILE
+        const hamburger = document.querySelector('.mobile-menu-trigger img');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        document.querySelectorAll('.mobile-menu .dropdown span').forEach(span => {
+            span.addEventListener('click', () => {
+                span.parentElement.classList.toggle('open');
+            });
+        });
+
+        document.querySelectorAll('.mobile-menu a, .mobile-menu .dropdown-item').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.style.display = 'none';
+                document.querySelectorAll('.mobile-menu .dropdown').forEach(drop => drop.classList.remove('open'));
+            });
+        });
+
+        // SCROLL UP BUTTON
+        const scrollButton = document.getElementById('scrollUpButton');
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollButton.style.display = "block";
+            } else {
+                scrollButton.style.display = "none";
+            }
+        };
+
+        scrollButton.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
